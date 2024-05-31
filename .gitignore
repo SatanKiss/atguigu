@@ -23,3 +23,9 @@
 hs_err_pid*
 replay_pid*
 .idea
+**/mvnw
+**/mvnw.cmd
+**/.mvn
+**/target
+**/.gitignore
+**/src/test
