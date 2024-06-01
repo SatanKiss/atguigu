@@ -11,7 +11,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.6</version>
+		<version>2.6.15</version>
+		<relativePath/>
 	</parent>
 
 	<properties>
@@ -55,6 +56,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.mojo</groupId>
+			<artifactId>wagon-maven-plugin</artifactId>
+			<version>2.0.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.spotify</groupId>
+			<artifactId>docker-maven-plugin</artifactId>
+			<version>1.2.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -266,7 +277,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>wagon-maven-plugin</artifactId>
-				<version>1.0</version>
+				<version>2.0.2</version>
 				<configuration>
 					<fromFile>target/${pack-name}</fromFile>
 					<url><![CDATA[scp://${remote-username}:${remote-passwd}@${remote-addr}${service-path}]]></url>
@@ -286,7 +297,7 @@
 			<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>docker-maven-plugin</artifactId>
-				<version>0.4.14</version>
+				<version>1.2.2</version>
 				<!--<executions>-->
 					<!--<execution>-->
 						<!--<phase>package</phase>-->
