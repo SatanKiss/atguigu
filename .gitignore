@@ -29,3 +29,5 @@ replay_pid*
 **/target
 **/.gitignore
 **/src/test
+**/.yarn
+.DS_Store
