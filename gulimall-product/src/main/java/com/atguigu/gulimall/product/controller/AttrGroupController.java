@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.atguigu.gulimall.product.entity.AttrGroupEntity;
 import com.atguigu.gulimall.product.service.AttrGroupService;
-import com.atguigu.common.utils.PageUtils;
-import com.atguigu.common.utils.R;
+import com.atguigu.gulimall.common.utils.PageUtils;
+import com.atguigu.gulimall.common.utils.R;
 
 
 
