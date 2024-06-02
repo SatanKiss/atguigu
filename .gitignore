@@ -32,4 +32,3 @@ replay_pid*
 **/.yarn
 .DS_Store
 /renren-fast-vue/node_modules/
-/nacos/dist!/nacos/distribution/target/nacos-server-2.4.0-SNAPSHOT/nacos/logs/
