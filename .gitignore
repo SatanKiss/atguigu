@@ -32,3 +32,4 @@ replay_pid*
 **/.yarn
 .DS_Store
 /renren-fast-vue/node_modules/
+nacos

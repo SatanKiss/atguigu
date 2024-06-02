@@ -5,6 +5,8 @@ import com.baomidou.mybatisplus.annotation.TableName;
 
 import java.io.Serializable;
 import java.util.Date;
+
+import com.mysql.cj.jdbc.Blob;
 import lombok.Data;
 
 /**
@@ -39,7 +41,7 @@ public class UndoLogEntity implements Serializable {
 	/**
 	 * 
 	 */
-	private Longblob rollbackInfo;
+	private byte[] rollbackInfo;
 	/**
 	 * 
 	 */
