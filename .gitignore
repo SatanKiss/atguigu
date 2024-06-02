@@ -31,3 +31,7 @@ replay_pid*
 **/src/test
 **/.yarn
 .DS_Store
+/renren-fast-vue/node_modules/
+/nacos/distribution/
+/nacos/.flattened-pom.xml
+/nacos/.github
