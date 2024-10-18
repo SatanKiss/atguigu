@@ -1,6 +1,7 @@
 package com.atguigu.gulimall.product.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
 
 import java.io.Serializable;
@@ -39,6 +40,7 @@ public class BrandEntity implements Serializable {
 	/**
 	 * ??ʾ״̬[0-????ʾ??1-??ʾ]
 	 */
+	@TableLogic(value = "1",delval = "0")
 	private Integer showStatus;
 	/**
 	 * ????????ĸ
