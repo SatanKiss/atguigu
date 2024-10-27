@@ -74,7 +74,7 @@ public class BrandController {
     @PostMapping("/update")
     //@RequiresPermissions("product:brand:update")
     public R update(@Validated({UpdateGroup.class}) @RequestBody BrandEntity brand){
-		brandService.updateById(brand);
+		brandService.updateDetailById(brand);
 
         return R.ok();
     }
